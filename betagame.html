@@ -8,9 +8,22 @@
     <zoom>
         <zoom>
             <style>
+                body {
+                    -webkit-touch-callout: none;
+                    -webkit-user-select: none;
+                    -khtml-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                }
+
                 canvas {
-                    border: 1px solid #d3d3d3;
-                    background-color: #f1f1f1;
+                    border: 1px solid #000000;
+                    background-color: #8cff40;
+                }
+
+                p {
+                    color: rgb(34, 146, 6);
                 }
             </style>
 </head>
@@ -23,7 +36,7 @@
         var myScore;
 
         function startGame() {
-            myGamePiece = new component(30, 30, "red", 10, 120);
+            myGamePiece = new component(30, 30, "green", 10, 120);
             myGamePiece.gravity = 0.05;
             myScore = new component("30px", "Consolas", "black", 280, 40, "text");
             myGameArea.start();
@@ -142,4 +155,5 @@
 </body>
 </zoom>
 <!--Code by laser-->
+
 </html>
