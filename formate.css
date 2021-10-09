@@ -124,9 +124,12 @@ body{
     transition: 0.5s;
   }
   
-  .closebtn:hover {
-    color: rgb(128, 123, 123);
-  }
+  .button:hover {
+  color: rgba(207, 202, 202, 0.774);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
   
   alert1{
     font-style: oblique;
@@ -153,6 +156,9 @@ body{
   
   .button:hover {
     color: rgba(207, 202, 202, 0.774);
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
   }
   
   .button1 {
