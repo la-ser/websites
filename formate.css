@@ -32,7 +32,7 @@ b{
 }
 
 td{
-  color: rgb(5 255 59);
+  color: rgb(5 255 248);
   text-align: center;
 }
 
@@ -67,7 +67,7 @@ help{
   margin: 5px;
   text-align: center;
   color: rgb(255, 255, 255);
-  background-color: rgb(36 158 25);
+  background-color: rgb(5, 187, 178);
   border-radius: 1mm;
 }
 
@@ -189,7 +189,7 @@ alert2{
   text-align: center;
 }
 
-/*Flip Box*/
+/*Flip Box
 .flip-box {
   background-color: transparent;
   position:absolute;
@@ -232,7 +232,7 @@ alert2{
 }
 
 .flip-box-back {
-  background-color: rgb(89, 129, 93);
+  background-color: rgb(89 125 129);
   color: rgb(187, 177, 177);
   transform: rotateX(180deg);
   -webkit-touch-callout: none;
@@ -241,4 +241,4 @@ alert2{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
+}*/
