@@ -11,38 +11,44 @@
   <title>laser Websites</title>
   <!--<meta http-equiv="refresh" content="1; URL=https://laser-inc.github.io/websites/error">-->
 </head>
+<style>
+  .dark-mode {
+    background-color: rgb(5, 103, 110);
+    color: rgb(3, 128, 128);
+  }
+</style>
 
 <body>
   <zoom>
-  <hidetext>
-    <header>
-      <h2>
-        <maintext>
-          laser Inc. - Websites
-        </maintext>
-      </h2>
-      <nav>
-        <h1>
-          Navigation
-        </h1>
-        <form>
-          <button class="button button1" formaction="#removed">Mediapage [removed]</button>
-        </form>
-        <form>
-          <button class="button button1" formaction="#removed">Downloads [removed]</button>
-        </form>
-        <form>
-          <button class="button button1" formaction="games">Games</button>
-        </form>
-        <form>
-          <button class="button button1" formaction="https://la-ser.github.io/audio">Audios</button>
-        </form>
-        <form>
-          <button class="button button1" formaction="help">Help</button>
-        </form>
+    <hidetext>
+      <header>
+        <h2>
+          <maintext>
+            laser Inc. - Websites
+          </maintext>
+        </h2>
+        <nav>
+          <h1>
+            Navigation
+          </h1>
+          <form>
+            <button class="button button1" formaction="#removed">Mediapage [removed]</button>
+          </form>
+          <form>
+            <button class="button button1" formaction="#removed">Downloads [removed]</button>
+          </form>
+          <form>
+            <button class="button button1" formaction="games">Games</button>
+          </form>
+          <form>
+            <button class="button button1" formaction="https://la-ser.github.io/audio">Audios</button>
+          </form>
+          <form>
+            <button class="button button1" formaction="help">Help</button>
+          </form>
 
-        <!--OLD BUTTONS-->
-        <!--    <a href="media-page">
+          <!--OLD BUTTONS-->
+          <!--    <a href="media-page">
       <button type="button">
         Media
       </button>
@@ -72,12 +78,17 @@
             </button>
             </a>-->
 
-      </nav>
-      <main>
-        <a href="https://la-ser.github.io">
-          <h1>
-            Startseite
-          </h1></a>
+        </nav>
+        <main>
+          <a href="https://la-ser.github.io">
+            <h1>
+              Startseite
+            </h1>
+          </a>
+          <h2>
+            Website Settings:
+          </h2>
+          <button class="button button1" onclick="myFunction()">Toggle dark mode</button>
           <h2>
             Weiterführende Links:
           </h2>
@@ -101,8 +112,15 @@
           <br>
           <a>Die Website ist aber im Moment noch in der BETA</a>
         </footer>
-      </hidetext>
+    </hidetext>
   </zoom>
 </body>
+<script>
+  function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
+</script>
 <!--Code by laser-->
+
 </html>
