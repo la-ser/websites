@@ -16,6 +16,16 @@
     background-color: rgb(5, 103, 110);
     color: rgb(3, 128, 128);
   }
+
+  @media (max-width: 1080px) {
+    .button2 {
+      display: none;
+    }
+
+    footer {
+      display: none;
+    }
+  }
 </style>
 
 <body>
@@ -32,10 +42,10 @@
             Navigation
           </h1>
           <form>
-            <button class="button button1" formaction="#removed">Mediapage [removed]</button>
+            <button class="button button2" formaction="#removed">Mediapage [removed]</button>
           </form>
           <form>
-            <button class="button button1" formaction="#removed">Downloads [removed]</button>
+            <button class="button button2" formaction="#removed">Downloads [removed]</button>
           </form>
           <form>
             <button class="button button1" formaction="games">Games</button>
